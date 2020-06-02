@@ -1,0 +1,76 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 9,
+        "name": "verify the title of the webapplication",
+        "description": "",
+        "id": "productstore--website;verify-the-title-of-the-webapplication;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 65895985201,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launching the application and login sushmitha and sushmitha1 into the application and",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sushmitha",
+                  "offset": 36
+                },
+                {
+                  "val": "sushmitha1",
+                  "offset": 50
+                }
+              ],
+              "location": "Title_TestCase.beforeAll(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16191901100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on home page,take out the title and compare",
+            "match": {
+              "location": "Title_TestCase.after()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TC01_Project_ProductStore"
+          },
+          {
+            "line": 1,
+            "name": "@Project_ProductStore"
+          }
+        ]
+      }
+    ],
+    "name": "ProductStore  Website",
+    "description": "",
+    "id": "productstore--website",
+    "keyword": "Feature",
+    "uri": "./src/main/resources/feature/test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Project_ProductStore"
+      }
+    ]
+  }
+]
